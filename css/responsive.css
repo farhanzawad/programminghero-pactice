@@ -1,0 +1,142 @@
+@media screen and (max-width: 600px) and (min-width: 0px){
+    .contact-banner{
+        display: none;
+    }
+    .nav{
+        flex-direction: column;
+        gap: 20px;
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 20px;
+    }
+    nav ul li a:hover{
+        background-color: #FFFFFF;
+    }
+
+    /* section 1 */
+    
+    .to-top{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 0;
+    }
+    .to-top .image-area img{
+        display: none;
+    }
+    .to-top .welcome-texts{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .to-top .welcome-texts h1{
+        font-size: 30px;
+    }
+    .to-top .welcome-texts p{
+        font-size: 15px;
+    }
+    .to-top .welcome-texts button{
+        margin-top: 20px;
+        padding: 10px 50px;
+    }
+    .to-top .welcome-texts button a{
+        font-size: 11px;
+    }
+
+
+    .to-top .welcome-texts button:hover{
+        background-color: #a05f4d;
+        cursor: pointer;
+    }
+    /* section 2 */
+
+    .posts{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+    .posts .card img,
+    .posts .card .text-box{
+        width: 100%;
+    }
+
+    /* section 3 */
+    .tes{
+        flex-direction: column;
+        gap: 25px;
+        overflow: hidden;
+    }
+    .tes .card{
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .footer-items{
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+    .col{
+        text-align: center;
+        border-bottom: 1px solid #FFFFFF;
+        padding: 30px;
+    }
+
+
+
+}
+
+@media screen and (max-width:992px ) and (min-width:601px){
+
+    /* section 2 */
+
+    .posts .card{
+        width: 550px;
+    }
+    .posts .card .text-box h1{
+        font-size: 30px;
+    }
+    .posts .card .text-box p{
+        font-size: 15px;
+    }
+    .posts .card img,
+    .posts .card .text-box{
+        width: 100%;
+    }
+    .posts{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        overflow: hidden;
+    }
+
+
+    /* section 3 */
+    .tes{
+        flex-direction: column;
+        gap: 25px;
+        overflow: hidden;
+    }
+    .tes .card{
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .footer-items{
+        gap: 20px;
+    }
+
+
+}
